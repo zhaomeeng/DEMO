@@ -17,3 +17,7 @@ def greetings(name):
 
 def greetings_with_age(name, age):
     return f"Hello, {name.title()}! You are {age} years old."
+
+
+def greetings_with_age_and_city(name, age, city):
+    return f"Hello, {name.title()}! You are {age} years old and live in {city.title()}."

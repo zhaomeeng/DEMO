@@ -8,3 +8,4 @@ print("merge the pull request")
 print("test reset")
 
 print(1)
+print(2)

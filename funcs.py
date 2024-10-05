@@ -13,3 +13,7 @@ class Person:
 
 def greetings(name):
     return f"Hello, {name.title()}!"
+
+
+def greetings_with_age(name, age):
+    return f"Hello, {name.title()}! You are {age} years old."

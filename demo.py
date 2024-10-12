@@ -1,6 +1,3 @@
-def func(str):
-    return str != "s"
-
-
-l = list(filter(func, "sunday"))
-print(l)
+l = [1, 2, 3, 4, 5]
+g = iter(l)
+print(next(g))
